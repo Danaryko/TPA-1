@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans', sans-serif;
+}
+body{
+    background-color: #364f6b;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+#HOME{
+    margin-top: 55px;
+}
+
+.menu{
+    float: right;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    color: snow;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+    color: snow;
+}
+h2{
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: snow;
+}
+.wrapper2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+a.tbl-profile{
+    padding-top: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 0px 16px;
+    border-radius: 50%;
+    position: absolute;
+}
+.img-awal{
+    margin-right: 10px;
+}
+#Blog{
+    margin-top: 100px;
+}
+.isi-blog{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    font-size: larger;
+}
+
+
+
+
