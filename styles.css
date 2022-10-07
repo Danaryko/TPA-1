@@ -102,7 +102,16 @@ a.tbl-profile{
 .isi-blog{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: inherit;
-    font-size: larger;
+    font-size: small;
+    text-align: left;
+}
+.img-blog{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: right;
+    margin-top: 300px;
+    margin-left: 20px;
 }
 
 
