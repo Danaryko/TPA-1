@@ -9,53 +9,77 @@ body{
     font-family: 'Open sans', sans-serif;
 }
 body{
-    background-color: #364f6b;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #06283D;
 }
 .wrapper{
-    width: 1100px;
-    margin: auto;
-    position: relative;
-}
-#HOME{
-    margin-bottom: 20px;
-}
-
-.menu{
-    float: right;
-    justify-content: flex-start;
-    align-items: center;
-}
-nav{
-    width: 100%;
-    margin: auto;
     display: flex;
-    line-height: 80px;
+    justify-content: space-between;
+    margin: auto;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #364f6b;
     z-index: 1;
-    border: 1px solid #364f6b;
+    font-size: 20px;
+    padding: 15px;
+    height: 50px;
+    background-color: #256D85;
+    box-shadow: 0 5px 12px 0 rgba(129, 127, 127, 0.5);
 }
-nav ul{
+.Brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 15px;
+    font-family: 'Lobster', cursive;
+}
+.firstname{
+    color: aliceblue;
+    font-weight: 700;
+}
+.lastname{
+    color: #06283D;
+    font-weight: 600;
+    padding-left: 4px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation>li{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 10px;
 }
-nav ul li{
-    float: left;
-}
-nav ul li a{
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
-    padding: 0px 16px 0px 16px;
+.navigation>li>a{
+    color: #06283D;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
     text-decoration: none;
 }
-nav ul li a:hover{
-    color: orangered;
+.navigation>li>a:hover{
     text-decoration: none;
+    color: snow;
+    transition: all .3s ease-in-out;
+}
+.navigation > li > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.navigation > li > img:hover{
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+#HOME{
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 section{
     margin: auto;
