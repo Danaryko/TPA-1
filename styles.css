@@ -29,7 +29,7 @@ body{
     justify-content: space-between;
     font-size: 20px;
     padding: 15px;
-    height: auto;
+    height: 50px;
     background-color: #256D85;
     box-shadow: 0 5px 12px 0 rgba(129, 127, 127, 0.5);
 }
